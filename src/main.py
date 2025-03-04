@@ -48,8 +48,19 @@ class MedicalChatbot:
         # Find similar reports using semantic search
         similar_reports = self.pinecone_manager.query_vectors(query_embedding)
         
-        # Combine the content of similar reports for context
-        context = "\n\n".join([report.metadata['content'] for report in similar_reports])
+        # Combine the content and metadata of similar reports for context
+        context_parts = []
+        for report in similar_reports:
+            metadata = report.metadata
+            report_text = f"Patient: {metadata['patient_name']}\n"
+            report_text += f"Date: {metadata['date']}\n"
+            report_text += f"Doctor: {metadata['doctor']}\n"
+            report_text += f"Department: {metadata['department']}\n"
+            report_text += f"Report Type: {metadata['report_type']}\n"
+            report_text += f"Content: {metadata['content']}\n"
+            context_parts.append(report_text)
+        
+        context = "\n\n".join(context_parts)
         
         # Generate response using Bedrock
         response = self.bedrock_manager.generate_response(context, query)

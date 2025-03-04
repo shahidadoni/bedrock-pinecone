@@ -1,29 +1,46 @@
 Sample Questions for Medical Report Chatbot:
 
+Questions the chatbot CAN answer (based on available data):
+
 1. Patient Information:
    - What are the test results for John Doe?
    - Show me Jane Smith's medical history
    - What was Mike Wilson's diagnosis?
+   - When was John's blood test taken?
 
 2. Test Results:
    - What were the findings from the blood test?
    - Show me the MRI scan results
    - What were the X-ray findings?
+   - What was John's hemoglobin level?
 
-3. Treatment and Recommendations:
-   - What treatment was recommended?
-   - What medications were prescribed?
-   - What follow-up appointments were scheduled?
-
-4. Doctor Information:
+3. Doctor Information:
    - Who was the attending physician?
    - Which department handled the case?
    - When was the last consultation?
+   - Which doctor performed Jane's MRI?
 
-5. General Queries:
-   - Summarize the medical report
-   - What are the key findings?
-   - What are the next steps?
+Questions the chatbot CANNOT answer (to demonstrate limitations):
 
-Note: These are example questions based on the sample medical reports in the system.
-The chatbot can understand natural language variations of these questions. 
+1. Treatment Information:
+   - What treatment was recommended?
+   - What medications were prescribed?
+   - What follow-up appointments were scheduled?
+   - What therapy was suggested for Jane's back pain?
+
+2. Additional Medical Details:
+   - What was the patient's previous medical history?
+   - What were the symptoms that led to these tests?
+   - What was the final diagnosis?
+   - What lifestyle changes were recommended?
+
+3. Future Plans:
+   - What are the next steps in treatment?
+   - When is the next follow-up appointment?
+   - What preventive measures were suggested?
+   - What lifestyle modifications were recommended?
+
+Note: These questions demonstrate both what information is available in the current medical reports 
+(test results, doctor information, basic patient details) and what information is not available 
+(treatments, diagnoses, recommendations, follow-up plans). The chatbot will clearly explain when 
+it cannot provide certain information and why. 
