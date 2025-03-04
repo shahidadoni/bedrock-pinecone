@@ -1,0 +1,29 @@
+Sample Questions for Medical Report Chatbot:
+
+1. Patient Information:
+   - What are the test results for John Doe?
+   - Show me Jane Smith's medical history
+   - What was Mike Wilson's diagnosis?
+
+2. Test Results:
+   - What were the findings from the blood test?
+   - Show me the MRI scan results
+   - What were the X-ray findings?
+
+3. Treatment and Recommendations:
+   - What treatment was recommended?
+   - What medications were prescribed?
+   - What follow-up appointments were scheduled?
+
+4. Doctor Information:
+   - Who was the attending physician?
+   - Which department handled the case?
+   - When was the last consultation?
+
+5. General Queries:
+   - Summarize the medical report
+   - What are the key findings?
+   - What are the next steps?
+
+Note: These are example questions based on the sample medical reports in the system.
+The chatbot can understand natural language variations of these questions. 
