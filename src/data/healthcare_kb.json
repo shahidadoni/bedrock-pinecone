@@ -1,0 +1,214 @@
+{
+  "hospitals": [
+    {
+      "name": "City General Hospital",
+      "departments": [
+        {
+          "name": "Cardiology",
+          "doctors": [
+            {
+              "name": "Dr. Sarah Chen",
+              "specialization": "Cardiologist",
+              "experience": "15 years",
+              "expertise": ["Heart Disease", "Arrhythmia", "Heart Failure", "Preventive Cardiology"]
+            },
+            {
+              "name": "Dr. Michael Rodriguez",
+              "specialization": "Cardiologist",
+              "experience": "12 years",
+              "expertise": ["Lipid Disorders", "Hypertension", "Coronary Artery Disease"]
+            },
+            {
+              "name": "Dr. Emily Thompson",
+              "specialization": "Cardiologist",
+              "experience": "18 years",
+              "expertise": ["Heart Palpitations", "Valve Disease", "Cardiac Rehabilitation"]
+            }
+          ]
+        },
+        {
+          "name": "Neurology",
+          "doctors": [
+            {
+              "name": "Dr. James Garcia",
+              "specialization": "Neurologist",
+              "experience": "18 years",
+              "expertise": ["Headache", "Epilepsy", "Multiple Sclerosis"]
+            },
+            {
+              "name": "Dr. Lisa Wong",
+              "specialization": "Neurologist",
+              "experience": "14 years",
+              "expertise": ["Back Pain", "Nerve Disorders", "Movement Disorders"]
+            }
+          ]
+        },
+        {
+          "name": "Internal Medicine",
+          "doctors": [
+            {
+              "name": "Dr. Robert Anderson",
+              "specialization": "Internal Medicine Specialist",
+              "experience": "20 years",
+              "expertise": ["Diabetes", "Hypertension", "General Medicine"]
+            },
+            {
+              "name": "Dr. Maria Martinez",
+              "specialization": "Internal Medicine Specialist",
+              "experience": "16 years",
+              "expertise": ["Thyroid Disorders", "Metabolic Disorders", "Preventive Care"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metropolitan Medical Center",
+      "departments": [
+        {
+          "name": "Cardiology",
+          "doctors": [
+            {
+              "name": "Dr. David Kim",
+              "specialization": "Cardiologist",
+              "experience": "16 years",
+              "expertise": ["Heart Disease", "Arrhythmia", "Heart Failure"]
+            },
+            {
+              "name": "Dr. Jennifer Park",
+              "specialization": "Cardiologist",
+              "experience": "13 years",
+              "expertise": ["Preventive Cardiology", "Lipid Disorders", "Cardiac Imaging"]
+            }
+          ]
+        },
+        {
+          "name": "Neurology",
+          "doctors": [
+            {
+              "name": "Dr. Thomas Lee",
+              "specialization": "Neurologist",
+              "experience": "17 years",
+              "expertise": ["Headache", "Back Pain", "Neuromuscular Disorders"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Back Pain",
+      "symptoms": [
+        "Pain in lower back",
+        "Stiffness",
+        "Limited range of motion",
+        "Muscle spasms"
+      ],
+      "treatments": [
+        {
+          "type": "Physical Therapy",
+          "description": "Stretching and strengthening exercises",
+          "duration": "6-8 weeks"
+        },
+        {
+          "type": "Medication",
+          "options": [
+            "NSAIDs",
+            "Muscle relaxants",
+            "Topical pain relievers"
+          ]
+        }
+      ],
+      "diet_recommendations": [
+        "Anti-inflammatory foods",
+        "Calcium-rich foods",
+        "Vitamin D supplements"
+      ],
+      "recommended_departments": ["Neurology", "Physical Medicine"],
+      "specialists": ["Neurologist", "Physical Medicine Specialist"]
+    },
+    {
+      "name": "Heart Palpitations",
+      "symptoms": [
+        "Rapid heartbeat",
+        "Irregular heartbeat",
+        "Chest discomfort",
+        "Shortness of breath"
+      ],
+      "treatments": [
+        {
+          "type": "Lifestyle Changes",
+          "description": "Stress management, regular exercise",
+          "duration": "Ongoing"
+        },
+        {
+          "type": "Medication",
+          "options": [
+            "Beta blockers",
+            "Calcium channel blockers",
+            "Anti-arrhythmic medications"
+          ]
+        }
+      ],
+      "diet_recommendations": [
+        "Low sodium diet",
+        "Heart-healthy foods",
+        "Limit caffeine and alcohol"
+      ],
+      "recommended_departments": ["Cardiology"],
+      "specialists": ["Cardiologist"]
+    },
+    {
+      "name": "Diabetes",
+      "symptoms": [
+        "Increased thirst",
+        "Frequent urination",
+        "Fatigue",
+        "Slow healing"
+      ],
+      "treatments": [
+        {
+          "type": "Medication",
+          "options": [
+            "Insulin",
+            "Oral medications",
+            "GLP-1 agonists"
+          ]
+        },
+        {
+          "type": "Lifestyle Management",
+          "description": "Blood sugar monitoring, exercise, diet control"
+        }
+      ],
+      "diet_recommendations": [
+        "Low glycemic index foods",
+        "Portion control",
+        "Regular meal timing",
+        "Complex carbohydrates"
+      ],
+      "recommended_departments": ["Internal Medicine", "Endocrinology"],
+      "specialists": ["Endocrinologist", "Internal Medicine Specialist"]
+    }
+  ],
+  "general_recommendations": {
+    "preventive_care": [
+      "Regular check-ups",
+      "Vaccinations",
+      "Screening tests",
+      "Exercise routine"
+    ],
+    "healthy_lifestyle": [
+      "Balanced diet",
+      "Regular exercise",
+      "Adequate sleep",
+      "Stress management"
+    ],
+    "emergency_signs": [
+      "Chest pain",
+      "Severe shortness of breath",
+      "Sudden severe pain",
+      "Loss of consciousness"
+    ]
+  }
+} 

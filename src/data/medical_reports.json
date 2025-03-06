@@ -6,7 +6,8 @@
     "report_type": "Blood Test",
     "content": "Complete Blood Count (CBC) results:\n- WBC: 7.5 x10^9/L (Normal: 4.5-11.0)\n- RBC: 4.8 x10^12/L (Normal: 4.2-5.4)\n- Hemoglobin: 14.2 g/dL (Normal: 13.5-17.5)\n- Hematocrit: 42% (Normal: 38.8-50)\n- Platelets: 250 x10^9/L (Normal: 150-450)\nAll values within normal range.",
     "doctor": "Dr. Smith",
-    "department": "Hematology"
+    "department": "Hematology",
+    "condition": "Routine Checkup"
   },
   {
     "id": "report_002",
@@ -15,7 +16,8 @@
     "report_type": "MRI Scan",
     "content": "MRI of the lumbar spine shows:\n- Mild degenerative disc disease at L4-L5\n- No significant spinal stenosis\n- No herniated discs\n- Normal alignment of vertebral bodies\n- No compression fractures",
     "doctor": "Dr. Johnson",
-    "department": "Radiology"
+    "department": "Radiology",
+    "condition": "Back Pain"
   },
   {
     "id": "report_003",
@@ -24,6 +26,78 @@
     "report_type": "ECG",
     "content": "12-lead ECG interpretation:\n- Normal sinus rhythm\n- Heart rate: 72 bpm\n- PR interval: 160ms\n- QRS duration: 90ms\n- QT interval: 380ms\n- No ST segment changes\n- No significant abnormalities detected",
     "doctor": "Dr. Brown",
-    "department": "Cardiology"
+    "department": "Cardiology",
+    "condition": "Heart Palpitations"
+  },
+  {
+    "id": "report_004",
+    "patient_name": "Sarah Davis",
+    "date": "2024-03-04",
+    "report_type": "CT Scan",
+    "content": "Chest CT scan findings:\n- Small nodule in right upper lobe (3mm)\n- Clear lungs otherwise\n- No pleural effusions\n- Normal heart size\n- No mediastinal lymphadenopathy",
+    "doctor": "Dr. Lee",
+    "department": "Radiology",
+    "condition": "Chest Pain"
+  },
+  {
+    "id": "report_005",
+    "patient_name": "Robert Taylor",
+    "date": "2024-03-05",
+    "report_type": "Blood Test",
+    "content": "Metabolic Panel results:\n- Sodium: 140 mEq/L (Normal: 135-145)\n- Potassium: 4.0 mEq/L (Normal: 3.5-5.0)\n- Chloride: 102 mEq/L (Normal: 96-106)\n- CO2: 24 mEq/L (Normal: 23-29)\n- Glucose: 95 mg/dL (Normal: 70-100)\n- BUN: 15 mg/dL (Normal: 7-20)\n- Creatinine: 0.9 mg/dL (Normal: 0.6-1.2)",
+    "doctor": "Dr. Anderson",
+    "department": "Internal Medicine",
+    "condition": "Diabetes Monitoring"
+  },
+  {
+    "id": "report_006",
+    "patient_name": "Emily Brown",
+    "date": "2024-03-06",
+    "report_type": "Ultrasound",
+    "content": "Abdominal ultrasound findings:\n- Normal liver size and echotexture\n- No gallstones\n- Normal pancreas\n- Normal spleen\n- No ascites\n- Normal kidneys bilaterally",
+    "doctor": "Dr. Martinez",
+    "department": "Radiology",
+    "condition": "Abdominal Pain"
+  },
+  {
+    "id": "report_007",
+    "patient_name": "David Clark",
+    "date": "2024-03-07",
+    "report_type": "X-Ray",
+    "content": "Chest X-ray interpretation:\n- Clear lungs\n- Normal heart size\n- No pleural effusions\n- No pneumothorax\n- Normal mediastinal contours",
+    "doctor": "Dr. White",
+    "department": "Emergency Medicine",
+    "condition": "Cough"
+  },
+  {
+    "id": "report_008",
+    "patient_name": "Lisa Anderson",
+    "date": "2024-03-08",
+    "report_type": "Blood Test",
+    "content": "Thyroid Function Test results:\n- TSH: 2.5 mIU/L (Normal: 0.4-4.0)\n- Free T4: 1.2 ng/dL (Normal: 0.8-1.8)\n- Free T3: 3.1 pg/mL (Normal: 2.3-4.2)\nAll values within normal range",
+    "doctor": "Dr. Thompson",
+    "department": "Endocrinology",
+    "condition": "Fatigue"
+  },
+  {
+    "id": "report_009",
+    "patient_name": "James Wilson",
+    "date": "2024-03-09",
+    "report_type": "MRI Scan",
+    "report_type": "MRI Scan",
+    "content": "Brain MRI findings:\n- No mass lesions\n- No acute infarcts\n- Normal ventricular size\n- No hydrocephalus\n- Normal pituitary gland\n- No significant white matter changes",
+    "doctor": "Dr. Garcia",
+    "department": "Neurology",
+    "condition": "Headache"
+  },
+  {
+    "id": "report_010",
+    "patient_name": "Mary Johnson",
+    "date": "2024-03-10",
+    "report_type": "Blood Test",
+    "content": "Lipid Panel results:\n- Total Cholesterol: 180 mg/dL (Normal: <200)\n- HDL: 55 mg/dL (Normal: >40)\n- LDL: 100 mg/dL (Normal: <100)\n- Triglycerides: 150 mg/dL (Normal: <150)\nAll values within normal range",
+    "doctor": "Dr. Rodriguez",
+    "department": "Cardiology",
+    "condition": "High Cholesterol"
   }
 ]
